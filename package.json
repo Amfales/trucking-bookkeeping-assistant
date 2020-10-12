@@ -1,0 +1,28 @@
+{
+  "name": "trucking-bookkeeping-assistant",
+  "version": "0.0.1",
+  "description": "Backend services for a trucking bookkeeping assistant. Includes truck load information and invoice pdf generation.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amfales/trucking-bookkeeping-assistant.git"
+  },
+  "keywords": [
+    "bookkeeping",
+    "trucking",
+    "invoice"
+  ],
+  "author": "Andrew Fales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amfales/trucking-bookkeeping-assistant/issues"
+  },
+  "homepage": "https://github.com/Amfales/trucking-bookkeeping-assistant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.3.5"
+  }
+}
